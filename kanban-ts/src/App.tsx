@@ -1,9 +1,14 @@
 import "./App.css";
+import Card from "./components/Card";
+import Column from "./components/Column";
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <Column>
+        <Card />
+      </Column>
+      <Column></Column>
     </>
   );
 }
